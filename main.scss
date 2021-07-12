@@ -12,12 +12,13 @@ body {
     margin: none;
     padding: 1em;
     text-align: center;
-    border-radius: .5rem;
+    border-radius: .25rem;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: white;
 
     h1 {
@@ -52,7 +53,8 @@ body {
     position: absolute;
     bottom: 0.5em;
     left: 0.5em;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(21, 21, 21);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: white;
 
     h2 {
