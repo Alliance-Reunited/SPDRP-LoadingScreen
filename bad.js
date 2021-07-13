@@ -38,5 +38,5 @@ window.onload = function() {
     SetStatusChanged("Waiting...");
     randomiseText();
 
-    setInterval(randomiseText, 10000);
+    setInterval(randomiseText, 5000);
 }
