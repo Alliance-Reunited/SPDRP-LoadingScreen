@@ -39,7 +39,7 @@ const type = () => {
     if (textIndex === texts.length) textIndex = 0;
 
     curText = texts[textIndex];
-    curLetter = curText.slice(0, ++index);
+    curLetter = curText.slice(0, ++letterIndex);
 
     document.querySelector(`.tips`).textContent = curLetter;
 
