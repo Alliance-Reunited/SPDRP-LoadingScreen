@@ -36,7 +36,7 @@ let backgroundIndex = 0;
  * Type out the current text.
  */
 const type = () => {
-    if (count === texts.length) count = 0;
+    if (textIndex === texts.length) textIndex = 0;
 
     curText = texts[textIndex];
     curLetter = curText.slice(0, ++index);
