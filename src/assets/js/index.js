@@ -10,12 +10,13 @@ const texts = [
     "“Screw you guys, I’m going home!” –Cartman",
     "“Hell, everything’s legal in Mexico. It’s the American way!” –Jimbo"
 ];
+
 let count = 0;
 let index = 0;
 let currentText = 0;
 let letter = 0;
 
-function type() {
+function type () {
     if (count === texts.length) {
         count = 0;
     }
