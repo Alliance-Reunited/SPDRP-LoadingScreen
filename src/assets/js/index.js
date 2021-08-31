@@ -43,7 +43,7 @@ const type = () => {
 
     document.querySelector(`.tips`).textContent = curLetter;
 
-    if (letterIndex === currentText.length) {
+    if (letterIndex === curText.length) {
         textIndex++;
         letterIndex = 0;
 
