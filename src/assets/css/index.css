@@ -1,53 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-  margin: auto;
-  padding: auto;
-  font-family: 'Source Sans Pro', sans-serif;
-  background: url(../img/background.jpg) no-repeat center center fixed;
-  background-size: cover;
+    margin: auto;
+    padding: auto;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background: url('../img/background.jpg') center;
+    background-size: cover;
+
+    overflow: hidden;
 }
 
 strong {
-  font-weight: 600;
-  color: #e74c3c;
+    font-weight: 600;
+    color: #e74c3c;
 }
 
-.topleft {
-  margin: auto;
-  padding: auto;
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  color: white;
-  -webkit-filter: drop-shadow(0 0 0.5rem black);
-          filter: drop-shadow(0 0 0.5rem black);
+.top-left, .bottom-left {
+    position: absolute;
+
+    color: #ffffff;
+    filter: drop-shadow(0 0 0.5rem #000000);
 }
 
-.topleft .titleWelcome {
-  margin: auto;
-  font-size: 2em;
+.top-left {
+    margin: auto;
+
+    top: 1em;
+    left: 1em;
 }
 
-.topleft .loading {
-  margin: auto;
-  font-size: 1.5em;
+.top-left .titleWelcome {
+    margin: auto;
+    font-size: 2em;
 }
 
-.bottomleft {
-  margin: auto;
-  padding: auto;
-  position: absolute;
-  bottom: 1em;
-  left: 1em;
-  color: white;
-  -webkit-filter: drop-shadow(0 0 0.5rem black);
-          filter: drop-shadow(0 0 0.5rem black);
+.top-left .loading {
+    margin: auto;
+    font-size: 1.5em;
 }
 
-.bottomleft p {
-  margin: auto;
+.bottom-left {
+    margin: auto;
+
+    bottom: 1em;
+    left: 1em;
+
+    max-width: 70% !important;
+    word-wrap: break-word;
 }
 
-.bottomleft .tips {
-  font-size: 1.5em;
+.bottom-left p {
+    margin: auto;
+}
+
+.bottom-left .tips {
+    font-size: 1.5em;
 }
